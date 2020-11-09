@@ -1,0 +1,7 @@
+<div>
+    #if(isFirst):
+        <h1>List of items</h1>
+    #endif
+    <h2>#(item.title)</h2>
+    <p>#(item.description)</p>
+</div>

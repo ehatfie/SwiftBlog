@@ -1,0 +1,16 @@
+#extend("index"):
+    #export("head"):
+    #endexport
+    #export("body"):
+        <div class="container mt-3">
+            #for(item in titles):
+            <div>
+                #if(isFirst):
+                    <h1>List of items</h1>
+                #endif
+                <h2>#(item)</h2>
+            </div>
+            #endfor
+        </div>
+    #endexport
+#endextend

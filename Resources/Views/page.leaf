@@ -1,0 +1,18 @@
+#extend("index"):
+    #export("head"):
+        #import("header")
+    #endexport
+    #export("body"):
+        <div class="container mt-3">
+            #for(item in items):
+            <div>
+                #if(isFirst):
+                    <h1>List of items</h1>
+                #endif
+                <h2>#(item.title)</h2>
+                <p>#(item.labels)</p>
+            </div>
+            #endfor
+        </div>
+    #endexport
+#endextend

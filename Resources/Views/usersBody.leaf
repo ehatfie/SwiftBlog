@@ -1,0 +1,12 @@
+#extend("users"):
+    #export("bodyy"):
+        <div class="container mt-3">
+            #for(item in titles):
+                #if(isFirst):
+                    <h1>List of items</h1>
+                #endif
+                <h2>#(item)</h2>
+            #endfor
+        </div>
+    #endexport
+#endextend

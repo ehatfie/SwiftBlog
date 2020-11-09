@@ -1,0 +1,7 @@
+#extend("page"):
+    #export("header"):
+        <div>
+            <h1>THIS THE HEADER</h1>
+        </div>
+    #endexport
+#endextend

@@ -1,0 +1,6 @@
+#set("another"):
+    <div>
+        <h1>THIS THING</h1>
+    </div>
+
+#embed("users")
